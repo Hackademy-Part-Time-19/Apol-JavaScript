@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.button {
+font-size: 20px;
+padding: 20px;
+
+border: none;
+background-color: rgba(255, 255, 255,0.5);
+cursor: pointer;
+width: 100%;
+}
+
+
+body > div >button:hover {
+    background-color:rgba(95, 94, 94, 0.5);
+  color: white;
+}
+.div {
+    background-image: url(./imagini/thirt.gif);
+    height: 50vh;
+    width: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
